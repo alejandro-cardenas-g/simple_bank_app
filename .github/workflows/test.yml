@@ -10,7 +10,10 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
-    working-directory: app
+
+    defaults:
+      run:
+        working-directory: app
 
     services:
       postgres:
