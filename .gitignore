@@ -2,4 +2,4 @@ app/tmp
 
 postgres
 
-.env
+app.env
